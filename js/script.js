@@ -6,3 +6,8 @@ console.log('"Il cognome è" ' + lastName);
 
 const color = prompt('Inserisci il tuo colore preferito');
 console.log('"Il colore preferito è" ' + color);
+
+const pass = name + lastName + color;
+
+document.getElementById('output').innerHTML = pass + '24';
+
