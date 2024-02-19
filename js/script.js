@@ -10,5 +10,5 @@ console.log('"Il colore preferito è" ' + color);
 const pass = name + lastName + color;
 
 document.getElementById('output').innerHTML = pass + '24';
-console.log('"La password generata è" ' + pass + '24g');
+console.log('"La password generata è" ' + pass + '24');
 
