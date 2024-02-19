@@ -6,8 +6,23 @@
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #cabfbf9a;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    background-color: #199c50;
+    width: fit-content;
+    padding: 15px 30px;
+    height: 70px;
+    border-radius: 10px;
 }
 
 #output{
-    
+    color: #020202;
+    font-size: 1.5rem;
+
 }
